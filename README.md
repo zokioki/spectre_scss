@@ -1,5 +1,7 @@
 # Spectre.scss
 
+[![Gem Version](https://badge.fury.io/rb/spectre_scss.svg)](https://badge.fury.io/rb/spectre_scss)
+
 [Spectre](https://picturepan2.github.io/spectre/) is a lightweight, responsive and modern CSS framework. This gem packages a Sass version of Spectre's assets for drop-in use in Rails applications.
 
 ## Installation
