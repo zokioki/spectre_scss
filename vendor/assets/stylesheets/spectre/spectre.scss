@@ -1,0 +1,50 @@
+/*! Spectre.css | MIT License | github.com/picturepan2/spectre */
+
+// Core variables and mixins
+@import 'src/variables';
+@import 'src/mixins';
+
+// Reset and dependencies
+@import 'src/normalize';
+@import 'src/base';
+
+// Core classes
+@import 'src/typography';
+@import 'src/asian';
+@import 'src/tables';
+@import 'src/buttons';
+@import 'src/forms';
+@import 'src/labels';
+@import 'src/codes';
+@import 'src/media';
+
+// Layout
+@import 'src/layout';
+@import 'src/navbar';
+@import 'src/panels';
+@import 'src/empty';
+
+// Components
+@import 'src/accordions';
+@import 'src/autocomplete';
+@import 'src/avatars';
+@import 'src/badges';
+@import 'src/breadcrumbs';
+@import 'src/bars';
+@import 'src/cards';
+@import 'src/chips';
+@import 'src/dropdowns';
+@import 'src/menus';
+@import 'src/modals';
+@import 'src/navs';
+@import 'src/pagination';
+@import 'src/popovers';
+@import 'src/steps';
+@import 'src/tabs';
+@import 'src/tiles';
+@import 'src/toasts';
+@import 'src/tooltips';
+
+// Utility classes
+@import 'src/animations';
+@import 'src/utilities';
