@@ -20,7 +20,28 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Once installed, add the following to your `application.scss`:
+
+```scss
+@import "spectre";
+```
+
+Or, import components as needed:
+
+```scss
+// Core variables and mixins
+@import 'spectre/src/variables';
+@import 'spectre/src/mixins';
+@import 'spectre/src/utilities';
+
+// Reset and dependencies
+@import 'spectre/src/normalize';
+@import 'spectre/src/base';
+
+@import 'spectre/src/buttons';
+@import 'spectre/src/navbar';
+@import 'spectre/src/tables';
+```
 
 ## License
 
