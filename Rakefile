@@ -10,12 +10,11 @@ namespace :spectre_scss do
   namespace :assets do
     desc 'Update Spectre\'s assets.'
     task update: :clean do
-      # version = ARGV[1] || "v#{SpectreScss::VERSION.sub(/.\d+$/, '')}"
-      commit = ARGV[1] || 'HEAD'
+      version = ARGV[1] || "v#{SpectreScss::VERSION.sub(/.\d+$/, '')}"
 
-      sh 'git clone git@github.com:trilbymedia/spectre-scss.git spectre_source'
-      sh "cd spectre_source && git checkout #{commit}"
-      sh 'cp -R spectre_source/scss/ vendor/assets/stylesheets/spectre/'
+      sh 'git clone git@github.com:picturepan2/spectre.git spectre_source'
+      sh "cd spectre_source && git checkout tags/#{version}"
+      sh 'cp -R spectre_source/src/ vendor/assets/stylesheets/spectre/'
 
       File.open('vendor/assets/stylesheets/spectre.scss', 'w') do |f|
         f.write('@import "spectre/spectre.scss";')

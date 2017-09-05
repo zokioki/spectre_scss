@@ -1,50 +1,49 @@
 /*! Spectre.css | MIT License | github.com/picturepan2/spectre */
-
 // Core variables and mixins
-@import 'src/variables';
-@import 'src/mixins';
+@import "variables";
+@import "mixins";
 
 // Reset and dependencies
-@import 'src/normalize';
-@import 'src/base';
+@import "normalize";
+@import "base";
 
 // Core classes
-@import 'src/typography';
-@import 'src/asian';
-@import 'src/tables';
-@import 'src/buttons';
-@import 'src/forms';
-@import 'src/labels';
-@import 'src/codes';
-@import 'src/media';
+@import "typography";
+@import "asian";
+@import "tables";
+@import "buttons";
+@import "forms";
+@import "labels";
+@import "codes";
+@import "media";
 
 // Layout
-@import 'src/layout';
-@import 'src/navbar';
-@import 'src/panels';
-@import 'src/empty';
+@import "layout";
+@import "navbar";
 
 // Components
-@import 'src/accordions';
-@import 'src/autocomplete';
-@import 'src/avatars';
-@import 'src/badges';
-@import 'src/breadcrumbs';
-@import 'src/bars';
-@import 'src/cards';
-@import 'src/chips';
-@import 'src/dropdowns';
-@import 'src/menus';
-@import 'src/modals';
-@import 'src/navs';
-@import 'src/pagination';
-@import 'src/popovers';
-@import 'src/steps';
-@import 'src/tabs';
-@import 'src/tiles';
-@import 'src/toasts';
-@import 'src/tooltips';
+@import "accordions";
+@import "autocomplete";
+@import "avatars";
+@import "badges";
+@import "breadcrumbs";
+@import "bars";
+@import "cards";
+@import "chips";
+@import "dropdowns";
+@import "empty";
+@import "menus";
+@import "modals";
+@import "navs";
+@import "pagination";
+@import "panels";
+@import "popovers";
+@import "steps";
+@import "tabs";
+@import "tiles";
+@import "toasts";
+@import "tooltips";
 
 // Utility classes
-@import 'src/animations';
-@import 'src/utilities';
+@import "animations";
+@import "utilities";

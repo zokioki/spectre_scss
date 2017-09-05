@@ -2,7 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/spectre_scss.svg)](https://badge.fury.io/rb/spectre_scss)
 
-[Spectre](https://picturepan2.github.io/spectre/) is a lightweight, responsive and modern CSS framework. This gem packages a Sass version of Spectre's assets for drop-in use in Rails applications.
+[Spectre](https://picturepan2.github.io/spectre/) is a lightweight, responsive and modern CSS framework. This gem packages the Sass version of Spectre's assets for drop-in use in Rails applications.
 
 ## Installation
 
@@ -32,17 +32,17 @@ Or, import components as needed:
 
 ```scss
 // Core variables and mixins
-@import 'spectre/src/variables';
-@import 'spectre/src/mixins';
-@import 'spectre/src/utilities';
+@import 'spectre/variables';
+@import 'spectre/mixins';
+@import 'spectre/utilities';
 
 // Reset and dependencies
-@import 'spectre/src/normalize';
-@import 'spectre/src/base';
+@import 'spectre/normalize';
+@import 'spectre/base';
 
-@import 'spectre/src/buttons';
-@import 'spectre/src/navbar';
-@import 'spectre/src/tables';
+@import 'spectre/buttons';
+@import 'spectre/navbar';
+@import 'spectre/tables';
 ```
 
 ## License

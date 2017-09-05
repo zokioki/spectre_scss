@@ -8,8 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = SpectreScss::VERSION
   spec.authors       = ['Zoran']
 
-  spec.summary       = 'Sass port of the Spectre CSS framework'
-  spec.description   = 'Spectre is a lightweight, responsive and modern CSS framework'
+  spec.summary       = 'Spectre is a lightweight, responsive and modern CSS framework.'
   spec.homepage      = 'https://github.com/zokioki/spectre_scss'
   spec.license       = 'MIT'
 
