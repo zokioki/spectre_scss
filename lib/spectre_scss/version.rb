@@ -1,3 +1,3 @@
 module SpectreScss
-  VERSION = '0.5.7.0'
+  VERSION = '0.5.8.0'
 end
