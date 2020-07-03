@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SpectreScss
-  VERSION = '0.5.8.0'
+  VERSION = '0.5.9.0'
 end
